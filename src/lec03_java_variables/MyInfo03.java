@@ -1,7 +1,7 @@
 package lec03_java_variables;
 
 public class MyInfo03 {
-	public String name = "Tofael";
+	public String name = "Tofael Kabir";
 	public byte age = 127;
 	public short myYearlyHouseRent = 32767;
 	public int myYearlySalary = 400006550;

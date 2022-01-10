@@ -20,7 +20,7 @@ public class MyInfo02 {
 	
 	// public = accessibility, String = type of Variable, name is the name of the String type variable
 	// String type variable is initialized inside double quotation
-	public String name = "Tofael"; 
+	public String name = "Tofael Kabir"; 
 	
 	// int (integer) = type of variable, myYearlySalary is the name of the int type variable
 	// int type variable is initialized without any quotation
