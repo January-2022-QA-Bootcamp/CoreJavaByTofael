@@ -18,9 +18,12 @@ public class MyInfo02 {
 	// String itself is a class, represents for String type variable here
 	// String is not a pure primitive data type, important interview question
 	
-	// public = accessibility, String = type of Variable, name is the name of the String type variable
+	// public, private, protected, default = accessibility, String = type of Variable, name is the name of the String type variable
 	// String type variable is initialized inside double quotation
-	public String name = "Tofael Kabir"; 
+	public String name1 = "Tofael Kabir"; 
+	private String name2 = "Tofael Kabir"; 
+	protected String name3 = "Tofael Kabir"; 
+	String name4 = "Tofael Kabir"; //default type accessibility, nothing is written
 	
 	// int (integer) = type of variable, myYearlySalary is the name of the int type variable
 	// int type variable is initialized without any quotation
