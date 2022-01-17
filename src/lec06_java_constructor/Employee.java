@@ -1,4 +1,4 @@
-package lec06_01_java_constructor;
+package lec06_java_constructor;
 
 public class Employee {
 	// Global variable or Class variable

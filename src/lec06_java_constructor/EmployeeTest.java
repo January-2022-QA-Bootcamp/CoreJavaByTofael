@@ -1,10 +1,10 @@
-package lec06_01_java_constructor;
+package lec06_java_constructor;
 
 public class EmployeeTest {
 	public static void main(String[] args) {
 		// default Constructor is initialized
 		Employee employee01 = new Employee(); 
-		// Here Tofael is an argument
+		// Here Tofael is an argument, in Employee class, empName was a parameter and that is String type
 		//Parameterized Constructor 01 is initialized	
 		Employee employee02 = new Employee("Tofael");	
 		//Parameterized Constructor 01 is initialized	
