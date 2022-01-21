@@ -1,6 +1,16 @@
 package lec07_02_different_type_of_method;
 
 /*
+ 
+ How can you change a String value to int?
+ -- Integer.parseInt(v)
+ 
+How can you change an int value to String?
+ -- String.valueOf(v)
+ 
+How can you change a String value to double?
+ -- Double.parseDouble(v)
+ 
  Give an example of a variable initialized where the default type of access modifier is used.
  -- int age = 30;
 
