@@ -1,4 +1,4 @@
-package lec08_java_different_type_of_class;
+package lec09_java_different_type_of_class;
 
 /*
 
@@ -13,7 +13,6 @@ https://www.tutorialspoint.com/java/java_numbers.htm#:~:text=All%20the%20wrapper
 
  * */
 
-// lec 8 is short because, added content in Lec 7-02
 public class Use_of_wrapper_class {
 	public static void main(String[] args) {
 
@@ -28,7 +27,7 @@ public class Use_of_wrapper_class {
 		System.out.println(20 + 25 + name + " " + 20 + 10 + (10 + 10) + 5 + 6); //45100 20102056
 		System.out.println(7 + 3 + name + " " + 212 + 111900); //10100 212111900
 		// Integer.parseInt(name) -- convert a String type variable to int type variable
-		// important interview question
+		// very very important interview question below
 		System.out.println(7 + 3 + Integer.parseInt(name) + " " + 20 + 10 + (10 + 10) + 5 + 6); //110 20102056
 		System.out.println(7 + 3 + Integer.parseInt(name) + 20 + 10 + (10 + 10) + 5 + 6); // 171
 		
@@ -78,7 +77,53 @@ public class Use_of_wrapper_class {
 
 		char direction = Character.toUpperCase('e'); // you learn this line from this page
 		System.out.println(direction);
+		
+		System.out.println("\n................. conversion from String to boolean .....................\n");
+		String employee1 = "true";
+		System.out.println(employee1); // true
+		System.out.println(Boolean.parseBoolean(employee1)); // true
 
+		System.out.println("\n................. conversion from String to boolean by default .....................\n");
+		// imp interview question: by default boolean is false
+		String employee2 = " ";
+		System.out.println(employee2); // outcome will be empty or null
+		System.out.println(Boolean.parseBoolean(employee2)); // you learn this line from this page. why false?
+		
+		System.out.println("\n................. conversion from int to String .....................\n");
+		int empId = 220;
+		System.out.println(empId); // 220
+		System.out.println(empId + 280); // 500
+		System.out.println(10+20+ empId + "  " + 280); // 250 280
+		System.out.println(empId); // 220
+		// very veery Important interview question below
+		System.out.println(String.valueOf(empId));
+		System.out.println(String.valueOf(empId) + 20); // 22020
+		
+		System.out.println("\n................. conversion from float to String .....................\n");
+		float grade = 3.112f;
+		System.out.println(grade); // 3.112
+		System.out.println(grade + 1.112f); // 4.224
+		System.out.println(grade + "  " + 1.112f); // 3.112 1.112
+		System.out.println(grade); // 3.112
+		// you can learn below formula from this page
+		// Conversion from float to String
+		System.out.println(String.valueOf(grade));
+		System.out.println(String.valueOf(grade)+ grade); // 3.1123.112
+		
+		System.out.println("\n................. conversion from double to String .....................\n");
+		double height = 1.112;
+		System.out.println(height); // 3.112
+		System.out.println(height + 251); // 252.112
+		System.out.println(height + "  " + 251); // 1.112 251
+		System.out.println(height); // 1.112
+		// you can learn below formula from this page
+		// Conversion from double to String
+		System.out.println(String.valueOf(height)); // 1.112
+		System.out.println(String.valueOf(height) + 3.55); // 1.1123.55
+		
+		System.out.println("\n................. conversion from boolean to String .....................\n");
+		boolean isCitizen = false;
+		System.out.println(isCitizen); // false
+		System.out.println(String.valueOf(isCitizen)); // false, you learn this line from this page				
 	}
-
 }
