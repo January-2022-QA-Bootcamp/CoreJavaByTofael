@@ -1,6 +1,9 @@
 package lec11_java_control_statements;
 
 /*
+ * 
+Control Statement:
+
 1) control statements allows to control the number of times a statement should get executed. 
 For example: for loop, while loop etc.
 
@@ -11,7 +14,7 @@ It is particularly used in cases where the number of iterations is fixed!
 3) The Java while loop is used to iterate a part of the program again and again. 
 If the number of iteration is not fixed, then you can use while loop.
 
-3) Do-while loop is similar to while loop, but it possesses one dissimilarity: In while loop, 
+4) Do-while loop is similar to while loop, but it possesses one dissimilarity: In while loop, 
 the condition is evaluated before the execution of loop’s body 
 but in do-while loop condition is evaluated after the execution of loop’s body.
 
