@@ -1,6 +1,7 @@
 package lec01_java_basics;
 
 /*
+Info Java Basics: 
 
 1) What is a Programming language?
 -- Programming language is a computer language, which contains (comprises of) a set of instructions used to produce various kinds of output (code) understood by a machine. 
