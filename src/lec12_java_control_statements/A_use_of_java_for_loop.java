@@ -68,14 +68,14 @@ public class A_use_of_java_for_loop {
 		
 		System.out.println("\n---------- for loop 07  ----------\n");
 		int k = 2;
-		for (int i = 18; i > 10; i = i - 3) { // 15, 12
+		for (int i = 18; i > 10; i = i - 3) {
 			System.out.println(i +  k);
 		}
 		
 		System.out.println("\n---------- for loop 08  ----------\n");
 		int l = 2;
-		for (int i = 25; i > 10; i -= 3) { // 25, 22, 19, 16, 13
-			System.out.println(i*l);
+		for (int i = 25; i > 10; i -= 3) {
+			System.out.println(i/l);
 		}
 		
 		System.out.println("\n---------- for loop 09, condition is false  ----------\n");

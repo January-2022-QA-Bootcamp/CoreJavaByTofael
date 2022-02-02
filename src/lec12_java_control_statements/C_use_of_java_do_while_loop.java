@@ -36,7 +36,8 @@ public class C_use_of_java_do_while_loop {
 		do {
 			System.out.println("The value is: " + k);
 			k++;
-		} while (k >= 5); // as the condition is not true, loop stop after 1st iteration
+		} while (k >= 5);
+		// as the condition is not true, loop stop after 1st iteration
 		
 		// decremental block is used
 		System.out.println("\n---------- do while loop 03 ----------\n");

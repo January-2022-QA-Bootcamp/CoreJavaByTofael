@@ -14,7 +14,7 @@ public class D_use_of_nested_loop {
 				 // 2+0, 2+1, 2+2, 2+3			 
 			 }
 		 }
-		 
+		
 		 System.out.println("\n---------- nested loop (here, a while loop inside a for loop) ----------\n");
 			for (int k = 1; k <= 6; k += 2) { // 1, 3, 5
 				int l = 2;
