@@ -17,6 +17,16 @@ public class Calculator01 {
 		int total2 = a-b;
 		System.out.println("Subtraction of a and b is: "+total2);
 	}
+	
+	public void multipliaction() {
+		int total3 = a*b;
+		System.out.println("Multipliaction of a and b is: "+total3);
+	}
+	
+	public void division() {
+		int total4 = a/b;
+		System.out.println("Division of a and b is: "+total4);
+	}
 
 	
 

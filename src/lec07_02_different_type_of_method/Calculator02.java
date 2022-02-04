@@ -19,7 +19,5 @@ public class Calculator02 {
 		System.out.println("Subtraction of a and b is: "+total2);
 		return total2;
 	}
-
 	
-
 }
