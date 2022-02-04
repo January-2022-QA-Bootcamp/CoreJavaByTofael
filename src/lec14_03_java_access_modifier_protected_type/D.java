@@ -12,7 +12,7 @@ public class D {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println("\n---------- In the same package, protected modifier content of same class can be accessed ----------");
+		System.out.println("\n---------- In the same package, protected type modifier content of same class can be accessed ----------");
 		D d = new D();
 		System.out.println(d.info2);
 		d.msg2();

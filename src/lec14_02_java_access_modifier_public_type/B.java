@@ -22,8 +22,7 @@ public class B extends M {
 		System.out.println("---------- The below coded is coming from class N of package 'lec14_06_java_access_modifier_class_from_outside_package' ----------\n");
 		N n1 = new N();
 		n1.n1();
-		
-		
-		
+				
 	}
+
 }

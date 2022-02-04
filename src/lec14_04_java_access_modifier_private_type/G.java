@@ -12,7 +12,7 @@ public class G {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("\n---------- In the same package, private modifier content of same class can be accessed ----------");
+		System.out.println("\n---------- In the same package, private type modifier content of same class can be accessed ----------");
 		G g = new G();
 		System.out.println(g.info3);
 		g.msg3();

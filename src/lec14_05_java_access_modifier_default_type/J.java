@@ -12,7 +12,7 @@ public class J {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("\n---------- In the same package, default modifier content of same class can be accessed ----------");
+		System.out.println("\n---------- In the same package, default type modifier content of same class can be accessed ----------");
 		J j = new J();
 		System.out.println(j.info4);
 		j.msg4();
