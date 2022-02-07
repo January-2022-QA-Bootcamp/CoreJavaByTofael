@@ -18,5 +18,8 @@ but in do-while loop condition is evaluated after the execution of loop’s body.
 * */
 
 public class Info_loop {
+	public static void main(String[] args) {
+		
+	}
 
 }
