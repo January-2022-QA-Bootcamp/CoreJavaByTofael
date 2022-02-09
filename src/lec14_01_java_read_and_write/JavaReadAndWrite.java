@@ -42,7 +42,8 @@ public class JavaReadAndWrite {
 						"Now go to the Desktop, open the folder, then the file and see what is written in the file");
 
 				String path = "C:\\Users\\Tofael\\Desktop\\EnthrallIT\\Students.txt";
-
+				
+				// why we used both
 				FileReader fr = null;
 				BufferedReader br = null;
 
