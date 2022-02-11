@@ -76,6 +76,33 @@ package lec16_java_oop_abstraction;
 21)  Are all the declared methods in Abstract class abstract in nature?
 -- Yes.
 
+22) Can we use implements keyword for inheritance in Interface?
+-- No
+
+23) Can we use ‘implements’ keyword in abstract class?
+-- Yes
+
+24) Why do we use the implements keyword in abstract class?
+--  to inherit Interface
+
+25) How many interfaces can be inherited in an abstract class by ‘implements’ keyword?
+-- More than one
+
+26) Can an abstract class inherit a regular class or an abstract class by ‘implements’ keyword?
+-- No, we use the ‘extends’ keyword for them.
+
+27) Can we use the ‘implements’ keyword in a regular class?
+-- Yes
+
+28) Why do we use the implements keyword in a regular class?
+--  to inherit Interface
+
+29) How many interfaces can be inherited in a regular class by ‘implements’ keyword?
+-- More than one
+
+30) Can a regular class inherit a regular or abstract class by ‘implements’ keyword?
+-- No, we use the ‘extends’ keyword for them.
+
 
  * */
 
