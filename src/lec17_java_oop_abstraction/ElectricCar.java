@@ -25,10 +25,22 @@ public abstract class ElectricCar extends FlyingCar implements HoverCar{
 	public abstract void price();
 	
 	// method implemented
-	public void battery() {
+	public static void battery() {
 		System.out.println("The Battery is very efficient");
 	}
 	
 	public abstract String electricCarName(); // return type
+	
+	// can we create default or static type method in Abstract class like Interface?
+	
+	// Default methods are allowed only in interfaces.
+	
+	/*
+	public default void noGas() {
+		System.out.println("noGas feature from Car Interface");
+	}	
+	*/
+	
+	// static method is possible to create, see line 28
 	
 }

@@ -20,6 +20,15 @@ public class Toyota extends ElectricCar implements Car, Drone{
 		System.out.println("This method is from Toyota class");
 	}
 	
+	// can we create default or static type method in Abstract class like Interface?
+	
+	// Default methods are allowed only in interfaces, static method showed in line 19
+	/*
+	public default void fuel() {
+		System.out.println("fuel feature from Car Interface");
+	}	
+	*/
+	
 	public int toyotaPrice() {
 		int price = 45000;
 		System.out.println("The price for Toyota is: "+price);

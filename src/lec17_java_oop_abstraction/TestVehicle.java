@@ -25,7 +25,7 @@ public class TestVehicle {
 		toyota.mercedezInfo();
 		toyota.speed();
 		toyota.cost();
-		toyota.battery();
+		Toyota.battery(); // battery is a static method in Abstract class, Toyota extends that Abstract class, so, Toyota itself can initialize that method, but in terms of Interface, it is not allowed for Toyota
 		toyota.honk(); // it can call the default type method of Interface
 		// toyota.gear(); // gear () is a static method, static method can't be call by object
 		
@@ -43,7 +43,7 @@ public class TestVehicle {
 		car.carryingGoods();
 		car.carryingpassenger();
 		car.rent();
-		System.out.println("The Car invented in: " + Car.bornYear);
+		System.out.println("The Car invented in: " + Car.bornYear); // final type variable is initialized here.
 
 		System.out.println("\n--------------------- Abstract class ElectricCar ------------------------\n");
 		// Cannot instantiate the type ElectricCar
@@ -62,7 +62,7 @@ public class TestVehicle {
 		electricCar.canFloat();
 		System.out.println("Electric Car name: " + electricCar.nameElectricCar + ", and price: " + electricCar.costElectricCar);
 		
-		System.out.println("\n--------------------- Not Instantiating here: Drone, FlyingCar, Ferrari, HoverCar, Mercedes, Rocket, Taxi, Truck ------------------------\n");
+		System.out.println("\n--------------------- Not Instantiating here: Drone, FlyingCar, Ferrari, HoverCar, Mercedes, Rocket, Taxi, Truck. But possible ------------------------\n");
 		
 
 		
