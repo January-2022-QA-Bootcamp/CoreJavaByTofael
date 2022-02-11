@@ -27,7 +27,7 @@ public class Employee extends MountSinai {
 		super.inNewYork = true;
 		super.rating = 10.0f;
 		System.out.println("This hospital is in NY? Ans: " + inNewYork + " and The rating is: " + rating);
-
+		
 		System.out.println("This is a default constructor from Employee class");
 	}
 

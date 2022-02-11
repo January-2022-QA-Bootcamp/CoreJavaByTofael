@@ -18,7 +18,7 @@ public class EmployeeTest {
 		//Parameterized Constructor 04 is initialized	
 		Employee employee07 = new Employee("Asma", 448, 'F', false);
 		//Parameterized Constructor 05 is initialized	
-		Employee employee08 = new Employee("Nasir", 990, 'M', true);
+		Employee employee08 = new Employee("Nasir", 990, true, 'M');
 		
 		// summary:
 		// we must have to put the argument in a sequence like the way local variable (parameter) declared in constructor

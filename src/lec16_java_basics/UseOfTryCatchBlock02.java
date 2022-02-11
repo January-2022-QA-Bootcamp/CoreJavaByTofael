@@ -10,7 +10,7 @@ public class UseOfTryCatchBlock02 {
 			int division = a / b;
 			System.out.println(division);
 		} catch (ArithmeticException e) {
-			System.out.println("The Exception is: " + e);
+			System.out.println("The Exception is >>>>>> " + e);
 		}
 
 	}
