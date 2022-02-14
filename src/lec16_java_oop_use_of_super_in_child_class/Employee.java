@@ -15,7 +15,7 @@ public class Employee extends MountSinai {
 		// Either default or parameterized constructor can be called from super class,
 		// not both
 		// That's why the below line in comment out
-		// super(); // represent the default constructor of parent class
+		//super(); // represent the default constructor of parent class
 		super("Bronx", 6); // representing the parameterized constructor of parent class
 
 		// super keyword is used to call (initialize) the methods of super (Parent)
