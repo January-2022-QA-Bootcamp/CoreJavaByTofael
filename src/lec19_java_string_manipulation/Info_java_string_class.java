@@ -1,4 +1,4 @@
-package lec18_01_java_string_manipulation;
+package lec19_java_string_manipulation;
 
 /*
 String Class:
@@ -8,7 +8,7 @@ String Class:
 
                        			String                   StringBuffer  		    StringBuilder
               			--------------------    ----------------------     ------------------------
-Storage      		String Pool (Heap)               Heap                      Heap
+Storage      		String Pool (Heap)                Heap                      Heap
 Modifiable 	   	      No (Immutable)	      Yes (Mutable)             Yes (Mutable)
 Thread safe					Yes			    		 Yes			   			   	No
 Synchronized					Yes			    	     Yes						   	No

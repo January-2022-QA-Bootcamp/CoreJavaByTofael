@@ -1,4 +1,4 @@
-package lec18_01_java_string_manipulation;
+package lec19_java_string_manipulation;
 
 // This is a very important topic for interview
 

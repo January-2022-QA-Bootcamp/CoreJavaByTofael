@@ -48,7 +48,7 @@ public class JavaReadAndWrite {
 				BufferedReader br = null;
 
 				try {
-					fr = new FileReader(path); // when the class is instantiated, it can locate the file
+					fr = new FileReader(path); // when the class is instantiated, it can locate the file and recognize the file to read
 					System.out.println("FileReader find the location of the path as: " + path);
 				} catch (FileNotFoundException g) {
 					g.printStackTrace();
@@ -57,7 +57,7 @@ public class JavaReadAndWrite {
 
 				String data = "";
 				try {
-					br = new BufferedReader(fr);
+					br = new BufferedReader(fr); 
 					while ((data = br.readLine()) != null) {
 						System.out.println("The BufferedReader read the file and got : " + data);
 					}
@@ -66,10 +66,10 @@ public class JavaReadAndWrite {
 					// System.out.println("The file can't be read");
 				} finally {
 					if (fr != null) {
-						fr = null;
+						fr = null; // If fr is not null, make it null, mean close the resource.
 					}
 					if (br != null) {
-						br = null;
+						br = null;    // If br is not null, make it null, mean close the resource.
 					}
 				}
 
