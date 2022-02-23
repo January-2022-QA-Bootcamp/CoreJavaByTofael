@@ -14,6 +14,8 @@ public class UseOfArray01 {
 	public static void main(String[] args) {
 		
 		int [] age = new int [6]; // declaring size of the array, here 6
+		// int [] age = {23, 93, 0, 127, 0, 90} ; // An array can be presented also this way
+		
 		// Array is fixed size (Array is static)
 		// age is the array name
 		// [] called container
@@ -22,7 +24,7 @@ public class UseOfArray01 {
 		age[0] = 23;
 		age[1] = 93;
 		
-		age[3] = 'j';
+		age[3] = 127;
 		
 		age[5] = 90;
 		
