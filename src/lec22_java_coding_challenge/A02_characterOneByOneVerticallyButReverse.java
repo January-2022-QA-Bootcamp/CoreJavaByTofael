@@ -1,28 +1,22 @@
-package lec21_java_coding_challenge;
+package lec22_java_coding_challenge;
 
 /*
-Que: Print your name horizontally character by character
+Que: Print your name vertically character by character
 */
 
-public class A03_characterOneByOneHorizontallyButReverse {
+public class A02_characterOneByOneVerticallyButReverse {
 
 	public static void main(String[] args) {
-		String s = "Hello Mohammad Tofael Kabir Sharkar";
+		String s = "Tofael Kabir";
 		// total character = 12, how we got it? formula: s.length()
 		// first one: index number 0
 		// last one: index number 11  , it is s.length-1
 		// 11 = 12-1 = s.length()-1
 		
 		for(int i=s.length()-1; i>=0; i-- ) {
-			System.out.print(s.charAt(i));
+			System.out.println(s.charAt(i));
 		}
 		
 	}
 
 }
-
-
-
-
-
-

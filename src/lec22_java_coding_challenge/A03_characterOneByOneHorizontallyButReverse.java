@@ -1,4 +1,4 @@
-package lec21_java_coding_challenge;
+package lec22_java_coding_challenge;
 
 /*
 Que: Print your name horizontally character by character
