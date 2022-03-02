@@ -43,7 +43,7 @@ public class UseOfString02 {
 		// To replace we use replace() method
 		// Returns a string resulting from replacing all occurrences of oldChar in this string with newChar.
 		System.out.println("\n------------------------------------------------------------------------\n");
-		String s7 = "Good morning";
+		String s7 = "Good morning mr";
 		System.out.println("After replacing: " + s7.replace('m', 'M') );
 		
 		// replace() can't trim
