@@ -1,4 +1,4 @@
-package lec22_java_coding_challenge;
+package lec25_java_coding_challenge;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -12,6 +12,7 @@ public class E01_UseOfSet {
 		// This below 2 line is a very very important interview question. question: difference between Set and List
 		// Set doesn't allow duplicate data
 		// Set doesn't follow indexing
+		// Set is a memeber of Collection framework, where deal with multiple data type
 		Set <String> abc = new HashSet<>();
 		// type of variable use is String
 		// abc is the name of object
