@@ -1,6 +1,6 @@
 package lec25_java_coding_challenge_from_nayon;
 
-// Will explain when ArrayList will be teached
+// Will explain when ArrayList will be teaches
 
 import java.util.ArrayList;
 import java.util.List;
