@@ -74,6 +74,6 @@ public class F04_primeNumber {
 
 	public static void main(String[] args) {
 		System.out.println("The number 23 is prime number or not ? " + isPrimeNumber(11));
-		findPrimeNumber(100);
+		findPrimeNumber(10);
 	}
 }

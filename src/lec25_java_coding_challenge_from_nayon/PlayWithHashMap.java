@@ -1,5 +1,7 @@
 package lec25_java_coding_challenge_from_nayon;
 
+//TODO Will learn when we teaches Collection framework
+
 /*
 Q1:- Assume that the following expression always evaluates to true: 
 

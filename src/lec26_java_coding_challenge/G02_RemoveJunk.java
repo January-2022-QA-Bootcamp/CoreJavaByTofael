@@ -15,6 +15,10 @@ public class G02_RemoveJunk {
 		String s1 = "*&99564^%$java";
 		String s2 = s1.replaceAll("[^a-zA-Z0-9]", "");
 		System.out.println(s2);
+		
+		String s3 = "H(el$lo-12__=34";
+		String s4 = s3.replaceAll("[^a-zA-Z0-9]", "");
+		System.out.println(s4);
 
 	}
 
