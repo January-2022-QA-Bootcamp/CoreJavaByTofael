@@ -21,8 +21,8 @@ public class E02_use_of_sendKeys_method_and_click_submit_and_then_clear {
 		driver.get("https://www.amazon.com/");
 	}
 
-	@Test (enabled=true, priority = 1)
-	public void searchingProductTest() throws InterruptedException{
+	@Test(enabled = true, priority = 1)
+	public void searchingProductTest() throws InterruptedException {
 		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Laptop");
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
@@ -33,10 +33,9 @@ public class E02_use_of_sendKeys_method_and_click_submit_and_then_clear {
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
 		Thread.sleep(5000);
-		// you can use other methods too, getCurrentUrl(), getText(), getTitle()
+		// you can use other methods too, getCurrentUrl(), getText(), getTitle() etc.
 	}
-	
-	
+
 	@AfterTest
 	public void tearUp() {
 		driver.quit();
