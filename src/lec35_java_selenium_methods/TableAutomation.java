@@ -1,4 +1,4 @@
-package lec33_java_selenium_methods;
+package lec35_java_selenium_methods;
 
 import java.util.ArrayList;
 import java.util.List;
