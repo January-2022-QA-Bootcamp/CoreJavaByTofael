@@ -7,6 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+// Better to use E04, 05, 06 from the beginning
 public class B02_use_of_click_method_by_name_locator {
 	WebDriver driver;
 	
