@@ -1,12 +1,10 @@
 package lec36_java_selenium_methods;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-// no working, need to find out why not working
-// Explanation of the interview question
+// This code is the explanation of the interview question
 public class I02_FastestWebDriver {
 	// clicking New User Registration button
 	public static void main(String[] args) throws InterruptedException {
@@ -15,11 +13,8 @@ public class I02_FastestWebDriver {
 		options.addArguments("--headless");	// also we can run in incognito	
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://portaldev.cms.gov/portal/");
-		Thread.sleep(4000);	
-		driver.findElement(By.xpath("//a[text()='New User Registration']")).click();
-		Thread.sleep(5000);
 		System.out.println("The Current URL is: "+driver.getCurrentUrl());	
+		System.out.println("Test execution completed");
 		driver.quit();
 	}
-//TODO what would be the result look like?
 }

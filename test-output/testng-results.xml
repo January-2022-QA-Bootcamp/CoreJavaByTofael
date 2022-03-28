@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-24T22:26:36 EDT" name="Default suite" finished-at="2022-03-24T22:26:57 EDT" duration-ms="21024">
+  <suite started-at="2022-03-27T22:59:25 EDT" name="Default suite" finished-at="2022-03-27T22:59:33 EDT" duration-ms="7956">
     <groups>
     </groups>
-    <test started-at="2022-03-24T22:26:36 EDT" name="Default test" finished-at="2022-03-24T22:26:57 EDT" duration-ms="21024">
-      <class name="lec36_java_selenium_methods.I04_use_of_sendKeys_method_by_javascriptExecutor">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:lec36_java_selenium_methods.I04_use_of_sendKeys_method_by_javascriptExecutor@6392827e]" started-at="2022-03-24T22:26:36 EDT" name="setUp" finished-at="2022-03-24T22:26:45 EDT" duration-ms="9050" status="PASS">
+    <test started-at="2022-03-27T22:59:25 EDT" name="Default test" finished-at="2022-03-27T22:59:33 EDT" duration-ms="7956">
+      <class name="lec37_java_selenium_methods.K06_authenticationPopUp">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:lec37_java_selenium_methods.K06_authenticationPopUp@957e06]" started-at="2022-03-27T22:59:25 EDT" name="setUp" finished-at="2022-03-27T22:59:27 EDT" duration-ms="2742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchItemByclickingSearchButtonTest01()[pri:3, instance:lec36_java_selenium_methods.I04_use_of_sendKeys_method_by_javascriptExecutor@6392827e]" started-at="2022-03-24T22:26:46 EDT" name="searchItemByclickingSearchButtonTest01" finished-at="2022-03-24T22:26:57 EDT" duration-ms="11727" status="PASS">
+        <test-method signature="authenticationPopUpTest()[pri:1, instance:lec37_java_selenium_methods.K06_authenticationPopUp@957e06]" started-at="2022-03-27T22:59:27 EDT" name="authenticationPopUpTest" finished-at="2022-03-27T22:59:32 EDT" duration-ms="5037" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchItemByclickingSearchButtonTest01 -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:lec36_java_selenium_methods.I04_use_of_sendKeys_method_by_javascriptExecutor@6392827e]" started-at="2022-03-24T22:26:57 EDT" name="tearUp" finished-at="2022-03-24T22:26:57 EDT" duration-ms="200" status="PASS">
+        </test-method> <!-- authenticationPopUpTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:lec37_java_selenium_methods.K06_authenticationPopUp@957e06]" started-at="2022-03-27T22:59:32 EDT" name="tearUp" finished-at="2022-03-27T22:59:33 EDT" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- lec36_java_selenium_methods.I04_use_of_sendKeys_method_by_javascriptExecutor -->
+      </class> <!-- lec37_java_selenium_methods.K06_authenticationPopUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
