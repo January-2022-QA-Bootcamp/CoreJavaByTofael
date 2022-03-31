@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-27T22:59:25 EDT" name="Default suite" finished-at="2022-03-27T22:59:33 EDT" duration-ms="7956">
+  <suite started-at="2022-03-31T00:46:46 EDT" name="Default suite" finished-at="2022-03-31T00:47:10 EDT" duration-ms="23567">
     <groups>
     </groups>
-    <test started-at="2022-03-27T22:59:25 EDT" name="Default test" finished-at="2022-03-27T22:59:33 EDT" duration-ms="7956">
-      <class name="lec37_java_selenium_methods.K06_authenticationPopUp">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:lec37_java_selenium_methods.K06_authenticationPopUp@957e06]" started-at="2022-03-27T22:59:25 EDT" name="setUp" finished-at="2022-03-27T22:59:27 EDT" duration-ms="2742" status="PASS">
+    <test started-at="2022-03-31T00:46:46 EDT" name="Default test" finished-at="2022-03-31T00:47:10 EDT" duration-ms="23567">
+      <class name="lec39_java_selenium_methods.M02_SwitchWindows">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:lec39_java_selenium_methods.M02_SwitchWindows@957e06]" started-at="2022-03-31T00:46:46 EDT" name="setUp" finished-at="2022-03-31T00:46:55 EDT" duration-ms="8187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="authenticationPopUpTest()[pri:1, instance:lec37_java_selenium_methods.K06_authenticationPopUp@957e06]" started-at="2022-03-27T22:59:27 EDT" name="authenticationPopUpTest" finished-at="2022-03-27T22:59:32 EDT" duration-ms="5037" status="PASS">
+        <test-method signature="switchWindows()[pri:1, instance:lec39_java_selenium_methods.M02_SwitchWindows@957e06]" started-at="2022-03-31T00:46:55 EDT" name="switchWindows" finished-at="2022-03-31T00:47:10 EDT" duration-ms="15228" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- authenticationPopUpTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:lec37_java_selenium_methods.K06_authenticationPopUp@957e06]" started-at="2022-03-27T22:59:32 EDT" name="tearUp" finished-at="2022-03-27T22:59:33 EDT" duration-ms="137" status="PASS">
+        </test-method> <!-- switchWindows -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:lec39_java_selenium_methods.M02_SwitchWindows@957e06]" started-at="2022-03-31T00:47:10 EDT" name="tearUp" finished-at="2022-03-31T00:47:10 EDT" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- lec37_java_selenium_methods.K06_authenticationPopUp -->
+      </class> <!-- lec39_java_selenium_methods.M02_SwitchWindows -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
