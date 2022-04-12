@@ -60,7 +60,7 @@ public class UseOfString01 {
 		// this substring is important
 		// The substring begins at the specified beginIndex and extends to the character
 		// at index (endIndex - 1)
-		// start index 0, end index (25-1), similar like initialization block and conditional block, Please remember it
+		// start index 0, end index (25-1), similar like initialization block and conditional block, Please remember it, here 25 is upper limit which is excluded
 		System.out.println("\n");
 		System.out.println(s.substring(0, 25));
 		System.out.println("\n");

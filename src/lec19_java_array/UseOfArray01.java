@@ -2,6 +2,7 @@ package lec19_java_array;
 
 import java.util.Arrays;
 
+// Please see lecture 44
 /*
  Array is a container which stores a group of the same data type element. 
  Array is index based and the first element of an array starts with the index 0. 
