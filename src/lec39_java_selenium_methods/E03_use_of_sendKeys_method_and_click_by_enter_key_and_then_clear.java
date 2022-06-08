@@ -22,7 +22,7 @@ public class E03_use_of_sendKeys_method_and_click_by_enter_key_and_then_clear {
 		driver.get("https://www.amazon.com/");
 	}
 
-	@Test(enabled = false, priority = 1)
+	@Test(enabled = true, priority = 1)
 	// This method is to compare the next one
 	public void searchingProductTest01() throws InterruptedException {
 		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Laptop");
@@ -34,6 +34,8 @@ public class E03_use_of_sendKeys_method_and_click_by_enter_key_and_then_clear {
 		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("iPad");
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).clear();
 		Thread.sleep(5000);
 	}
 	

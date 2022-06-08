@@ -28,21 +28,21 @@ Describe the classification of variables?
 
 Describe all primitive type data?
 
-		byte = –128 (2^7) to 127 (2^7-1)  //because of zero, zero is counted on the plus side. (-128 to +127)
+		byte = ï¿½128 (2^7) to 127 (2^7-1)  //because of zero, zero is counted on the plus side. (-128 to +127)
 		
-		short = –32,768 to 32,767   (32,768 = 256byte)
+		short = ï¿½32,768 to 32,767   (32,768 = 256byte)
 		
-		int (integer) = –2,147,483,648 to 2,147,483, 647     [mostly used]
+		int (integer) = ï¿½2,147,483,648 to 2,147,483, 647     [mostly used]
 		
-		long = –9,223,372,036,854,775,808 to 9,223,372,036,854,775,807     [highest range, we never used] [we have to use l (small L) at the end]
+		long = ï¿½9,223,372,036,854,775,808 to 9,223,372,036,854,775,807     [highest range, we never used] [we have to use l (small L) at the end]
 		
 		float = decimal till 6 to 7 digit [example: 3.1415927]   [we have to use f at the end]
 		
 		double = decimal till 15 to 16 digit [example: 3.1415927410125732] 
 		
-		String = “Tofael483” [Only variable start with Upper case] [V V Imp interview question: Not a pure primitive type]
+		String = ï¿½Tofael483ï¿½ [Only variable start with Upper case] [V V Imp interview question: Not a pure primitive type]
 		
-		char = ‘A’      
+		char = ï¿½Aï¿½      
 		         
 		boolean = true or false
 				
@@ -94,13 +94,13 @@ Explain MyInfo myInfo = new MyInfo(); ******
 
  What is the Info about byte type variables? **
 -- byte type variable start with lower case, byte type variable doesn't have any quotation
--- Any value between –128 (2^7) to +127 (2^7-1) is byte type
+-- Any value between ï¿½128 (2^7) to +127 (2^7-1) is byte type
 -- because of zero, zero is counted on the plus side. (-128 to +127) 
 -- solid number, no decimal.
 
 What is the Info about short type variables?
 -- short type variable start with lower case, short type variable doesn't have any quotation
--- Any value between –256 byte to +256 byte is short type (–32,768 to 32,767)
+-- Any value between ï¿½256 byte to +256 byte is short type (ï¿½32,768 to 32,767)
 -- because of zero, zero is counted on the plus side.
 -- solid number, no decimal.
 
@@ -125,9 +125,6 @@ What is the Info about double type variables?
 
 What is the difference between float and double in details?
  -- Though both float and double data type are used to represent floating point numbers in Java, a double data type is more precise than float. A double variable can provide precision up to 15 to 16 decimal points as compared to float precision of 6 to 7 decimal digits. Another significant difference between float and double is their storage requirement, double is more expensive than float. It takes 8 bytes to store a variable while float just takes 4 bytes. Which means, if memory is constraint then its better to use float than double. BTW, the double type also has a larger range than float and if your numbers don't fit well in float then you have to use double in Java.
-
-
-
 
  */
 

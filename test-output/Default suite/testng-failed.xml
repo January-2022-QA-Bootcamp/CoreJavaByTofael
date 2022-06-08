@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="lec37_java_selenium_methods.K04_use_of_dependsOnMethods_from_TestNG">
+      <class name="lec39_java_selenium_methods.E03_use_of_sendKeys_method_and_click_by_enter_key_and_then_clear">
         <methods>
           <include name="setUp"/>
-          <include name="mouseHoverActionOnOurLocations"/>
-          <include name="mouseHoverActionOnAboutUsTest"/>
+          <include name="searchingProductTest02"/>
           <include name="tearUp"/>
         </methods>
-      </class> <!-- lec37_java_selenium_methods.K04_use_of_dependsOnMethods_from_TestNG -->
+      </class> <!-- lec39_java_selenium_methods.E03_use_of_sendKeys_method_and_click_by_enter_key_and_then_clear -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

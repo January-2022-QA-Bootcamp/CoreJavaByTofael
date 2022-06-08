@@ -6,7 +6,7 @@ package lec01_java_basics;
 
 // Package names are generally starts with lowerCase
 // Camel case example for a package --> lec01JavaBasics
-//Alternative example of Camel case, for a package --> lec01_java_basics
+// Alternative example of Camel case, for a package --> lec01_java_basics
 
 // Class names starts with UpperCase 
 // Class names are usually nouns or noun phrases.

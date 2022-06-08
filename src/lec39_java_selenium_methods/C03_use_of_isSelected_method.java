@@ -9,9 +9,9 @@ import org.testng.annotations.Test;
 
 import lec04_01_java_variables_initialized.MyInfo;
 
-// isEnabled() is the method used to verify if the web element is enabled or
-// disabled within the web page. isEnabled() is primarily used with buttons.
-// Use of isEnabled(), a boolean type method
+//isSelected() is the method used to verify if the web element is selectable or
+//not. isSelected() method is predominantly used with radio buttons, dropdowns
+//and checkboxes.
 
 public class C03_use_of_isSelected_method {
 	WebDriver driver;

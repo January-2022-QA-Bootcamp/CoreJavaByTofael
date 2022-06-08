@@ -34,7 +34,7 @@ public class L05_use_of_slider_action {
 	// not so important
 	// skip it
 	@Test(enabled = true, priority = 1)
-	public void sliderActionTest() throws InterruptedException {
+	public void sliderActionTest01() throws InterruptedException {
 		// Instantiate Action Class
 		Actions actions = new Actions(driver);
 		// Retrieve WebElemnt 'slider' to perform mouse hover
@@ -43,10 +43,21 @@ public class L05_use_of_slider_action {
 		// Move mouse to x offset 50 i.e. in horizontal direction
 		Thread.sleep(5000);
 		// to test the slider is working or not
-		actions.moveToElement(slider, 50, 0).perform(); // learn from here
+		// dragAndDrop (int xoffset, int yoffset)
+		actions.dragAndDropBy(slider, 70, 70).build().perform(); // learn from here
 		Thread.sleep(5000);
 		//slider.click();
 		System.out.println("Moved slider in horizontal directions");
+	}
+	
+	@Test (enabled = true, priority = 1)
+	public void sliderActionTest2() throws InterruptedException {
+	WebElement slider = driver.findElement(By.xpath("//input[@class='range-slider range-slider--primary']"));
+	Actions actions = new Actions(driver);
+	Thread.sleep(5000);
+	actions.clickAndHold(slider);
+	actions.moveByOffset(65, 0).build().perform();
+	Thread.sleep(5000);
 	}
 		
 	@AfterTest

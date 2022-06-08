@@ -62,7 +62,7 @@ https://www.javatpoint.com/access-modifiers#:~:text=The%20access%20modifiers%20i
 -- for Mac user: we use command + /
 
 13) What is the current version of Java? ****
---> 17 (update accordingly)
+--> 18 (update accordingly)
 
 14) What is the most stable version of Java? ****
 --> 1.8
@@ -78,9 +78,6 @@ https://www.javatpoint.com/access-modifiers#:~:text=The%20access%20modifiers%20i
 
 18) Write some names of IDE’s other than Eclipse. ****
 -- IntelliJ IDEA, WebStorm (for Javascript), PyCharm (for python), Visual Studio Code, Atom etc.
-
-
-
 
  */
 
